@@ -17,7 +17,7 @@ function App() {
           <img src={ironhackLogoXs} alt='ironhack logo' />
           <img src={menuTopXs} alt='hamburger menu' className= 'menu' />
         </div>
-        <div className='sayHello'>
+        <div className='hello'>
           <h1 className='title'> Say hello to <br/>
           ReactJs</h1>
 
@@ -37,18 +37,18 @@ function App() {
     </div>
     <div className='components'>
       <img src={icon2} alt='icon2' className='icons' />
-      <h3>Declarative</h3>
+      <h3>Components</h3>
       <p className='text'> Build encapsulated components that manage their state.</p>
     </div>
-    <div className='declarative'>
+    <div className='single'>
       <img src={icon1} alt='icon1' className='icons' />
-      <h3>Declarative</h3>
-      <p className='text'> React makes it painless to create interactive UIs.</p>
+      <h3>Single-Way</h3>
+      <p className='text'> A set of immutable values are passed to the component's</p>
     </div>
-    <div className='declarative'>
+    <div className='jsx'>
       <img src={icon1} alt='icon1' className='icons' />
-      <h3>Declarative</h3>
-      <p className='text'> React makes it painless to create interactive UIs.</p>
+      <h3>JSX</h3>
+      <p className='text'> Statically-typed, designed to run on modern browsers</p>
     </div>
 
       </div>
